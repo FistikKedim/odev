@@ -14,22 +14,22 @@ async def on_ready():
 async def kirlilik(ctx):
     mesaj = (
         "**Çevre Kirliliği Türleri:**\n"
-        "- 🌫️ Hava kirliliği\n"
-        "- 💧 Su kirliliği\n"
-        "- 🌱 Toprak kirliliği\n"
-        "- 🔊 Gürültü kirliliği\n"
-        "- 💡 Işık kirliliği"
+        "-Hava kirliliği\n"
+        "-Su kirliliği\n"
+        "-Toprak kirliliği\n"
+        "-Gürültü kirliliği\n"
+        "-Işık kirliliği"
     )
     await ctx.send(mesaj)
 @bot.command()
 async def öneri(ctx):
     mesaj = (
         "**Çevreyi Koruma Önerileri:**\n"
-        "- 🌿 Enerji tasarruflu ürünler kullanın.\n"
-        "- ♻️ Geri dönüşüme önem verin.\n"
-        "- 🚲 Daha fazla bisiklet kullanın veya yürüyün.\n"
-        "- 🛍️ Tek kullanımlık plastiklerden kaçının.\n"
-        "- 🌳 Ağaç dikin ve yeşil alanları koruyun."
+        "-Enerji tasarruflu ürünler kullanın.\n"
+        "- Geri dönüşüme önem verin.\n"
+        "-Daha fazla bisiklet kullanın veya yürüyün.\n"
+        "- Tek kullanımlık plastiklerden kaçının.\n"
+        "-Ağaç dikin ve yeşil alanları koruyun."
     )
     await ctx.send(mesaj)
 @bot.command()
